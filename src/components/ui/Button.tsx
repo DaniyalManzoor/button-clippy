@@ -17,14 +17,14 @@ export const Button: React.FC<ButtonProps> = ({
   const outlineStyle = {
     primary: "",
     secondary:
-      "p-[2px] bg-[#9eff00] [clip-path:polygon(20%_0,_100%_0,_100%_80%,_80%_100%,_0%_100%,_0%_20%)] rounded-sm",
+      "p-[2px] bg-[#9eff00] [clip-path:polygon(10%_0,_100%_0,_100%_80%,_90%_100%,_0%_100%,_0%_25%)] rounded-sm",
   };
 
   const variantStyles = {
     primary:
-      "bg-[#9eff00] text-black hover:bg-[#9eff00] [clip-path:polygon(0_0,_80%_0,_100%_20%,_100%_100%,_20%_100%,_0_80%)]  rounded-sm",
+      "bg-[#9EFF00] text-black hover:bg-[#9EFF00] [clip-path:polygon(0_0,_90%_0,_100%_20%,_100%_100%,_10%_100%,_0_80%)]  rounded-sm",
     secondary:
-      "text-[#9eff00] bg-black [clip-path:polygon(20%_0,_100%_0,_100%_80%,_80%_100%,_0%_100%,_0%_20%)] rounded-sm",
+      "text-[#9eff00] bg-black [clip-path:polygon(10%_0,_100%_0,_100%_80%,_90%_100%,_0%_100%,_0%_25%)] rounded-sm",
   };
 
   const combinedClassName = `${baseStyles} ${variantStyles[variant]} ${className}`;
